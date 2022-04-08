@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML access in JS</title>
+</head>
+<body>
+
+    <!-- <h1 id="introtext">This is Javascript Tutorial </h1> -->
+
+    <!-- <h1 class="introtext">This is Javascript Tutorial </h1>
+    <h1 class="introtext">This is Javascript Tutorial </h1> 
+
+    <h1 name="introtext">This is First h1 tag </h1> -->
+
+    <h1 tag="introtext"> This is First h1 tag New</h1>
+</body>
+</html>
+
+<script>
+
+    // var x = document.getElementById("introtext")
+
+    //  var x = document.getElementsByClassName('introtext')
+    //  x.style.color='red'
+    // x[0].innerHTML='h1 tag is accessed by using name'
+
+    //  var x = document.getElementsByName('introtext')
+    //  x.innerHTML='h1 tag is accessed by using name'
+
+
+
+    var x =document.getElementsByTagName('h1')
+    x[0].innerHTML='h1 tag is accessed by using tag'
+        
+</script>

@@ -1,0 +1,1 @@
+console.log('This is from External javascript in Udemy')
